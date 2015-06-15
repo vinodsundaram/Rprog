@@ -1,4 +1,4 @@
-# Rprog
+## <h1>Rprog
 
 add2<- function(x,y){
   x+y;
@@ -9,7 +9,7 @@ above10 <- function(x){
   x[use] 
 }
 
-#finding the mean in a matrix
+## <h6>finding the mean in a matrix
 columnmean <- function(x)
 {
   nc<- ncol(x);
@@ -24,17 +24,17 @@ mydata <- rnorm(100)
 sd(mydata)
 sd(x=mydata, na.rm=FALSE)
 
-#Extending an existing function - pass arguments to other functions
+## <h6>Extending an existing function - pass arguments to other functions
 myplot <- function(x,y,type="1",...){
   plot(x,y,type=type,...)
 }
 
 
-#scoping
+## <h6>scoping
 #search() on command prompt: R checks globalenv.. then tries to find it in the packages
 #the base package is the last
 
-#Scoping Rules and difference from S
+## <h6>Scoping Rules and difference from S
 R uses lexical scoping or static scoping.
 F<- function(x,y)
 {
@@ -73,7 +73,7 @@ g<-function(x){
 #f(3) = 34
 
 
-
+## <h6>
 #R stored objects in memory
 
 
