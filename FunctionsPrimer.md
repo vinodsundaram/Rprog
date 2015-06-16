@@ -1,4 +1,4 @@
-**Rprog**
+##Rprog
 [coursera rprog-015] (http://www.coursera.org/rprog-015)
 
 
@@ -33,7 +33,7 @@ sd(x=mydata, na.rm=FALSE)
 }
 
 
-##### scoping
+##scoping
 ##### search() 
 > on command prompt: R checks globalenv.. then tries to find it in the packages the base package is the last
 
@@ -74,7 +74,7 @@ g<-function(x){
   
   x*y
 }
-#f(3) = 34
+##### f(3) = 34
 
 
 ##### R stored objects in memory
