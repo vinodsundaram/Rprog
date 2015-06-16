@@ -1,16 +1,18 @@
 **Rprog**
 [coursera rprog-015] (http://www.coursera.org/rprog-015)
-add2<- function(x,y){
+
+
+> add2<- function(x,y){
   x+y;
  }
 
- above10 <- function(x){
+> above10 <- function(x){
   use <- x > 10
   x[use] 
 }
 
-## <h6>finding the mean in a matrix
-columnmean <- function(x)
+##### finding the mean in a matrix
+> columnmean <- function(x)
 {
   nc<- ncol(x);
   means<- numeric(nc);
@@ -20,12 +22,13 @@ columnmean <- function(x)
   means
 }
 
-mydata <- rnorm(100)
+##### Standard Deviation
+> mydata <- rnorm(100)
 sd(mydata)
 sd(x=mydata, na.rm=FALSE)
 
-## <h6>Extending an existing function - pass arguments to other functions
-myplot <- function(x,y,type="1",...){
+##### Extending an existing function - pass arguments to other functions
+> myplot <- function(x,y,type="1",...){
   plot(x,y,type=type,...)
 }
 
